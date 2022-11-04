@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        hr{
+            display: block;
+            width: 15%;
+            text-align: left;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: auto;
+            margin-right: 85%;
+            border-style: inset;
+            border-width: 1px;
+        }
+        .card{
+            color: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        #email{
+            font-size: 0.75rem;
+        }
+        #phone{
+            font-size: 0.75rem;
+        }
+        a{
+            color: #e82a80
+        }
+        a:hover{
+            color: black;
+        }
+        a:active{
+            color:green;
+        }
+
+    </style>
+</head>
+<body>
+    <img src="https://www.kindpng.com/picc/m/230-2309721_enveloppes-cartes-envelopes-pinterest-cute-envelope-clipart-png.png" alt="" width="5%">
+    <div class="card">
+    <H1>Let's get in touch</H1>  
+    <p>Gongcun Sanlian Road Longhua<br>Shenzen 518000 Gungdong</p>
+    <hr>
+    <p id="email">Email</p>
+    <a href="#"><span>13606119507txn@gmail.com</span></a>
+    <p id="phone">Phone</p>
+    <a href="#"><span>13926588514</span></a>
+    </div>
+</body>
+</html>
